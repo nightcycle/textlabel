@@ -1,16 +1,16 @@
 [package]
 name = "nightcycle/textlabel"
 description = "constructs a basic textlabel but allows for iconlabels"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["CJ Oyer <coyer@nightcycle.us>"]
 realm = "shared"
 registry = "https://github.com/upliftgames/wally-index"
 exclude = ["Packages", ".vscode"]
 
 [dependencies]
-iconlabel = "nightcycle/iconlabel@0.1.x"
-isotope = "nightcycle/isotope@1.0.x"
+iconlabel = "nightcycle/iconlabel@0.1.3"
+coldfusion = "nightcycle/cold-fusion@1.0.13"
+isotope = "nightcycle/isotope@^1.1.12"
 format = "nightcycle/cold-fusion@0.1.x"
-coldfusion = "nightcycle/cold-fusion@1.0.x"
 signal = "quenty/signal@^2.0.0-canary"
 maid = "quenty/maid@^2.0.1-canary"
